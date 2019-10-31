@@ -51,5 +51,29 @@
       </div> -->
     </main>
     <script type="module" src="main.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyBFFTdR2LITmtYc7-f0H9ACm8onzhMGE70",
+        authDomain: "dice-a43d2.firebaseapp.com",
+        databaseURL: "https://dice-a43d2.firebaseio.com",
+        projectId: "dice-a43d2",
+        storageBucket: "dice-a43d2.appspot.com",
+        messagingSenderId: "3046520077",
+        appId: "1:3046520077:web:548dfd7321b17605426c44",
+        measurementId: "G-5QXQHR17JM"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
   </body>
 </html>
